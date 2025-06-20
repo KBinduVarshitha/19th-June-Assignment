@@ -1,0 +1,80 @@
+body
+{
+    background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?cs=srgb&dl=pexels-moose-photos-170195-1037992.jpg&fm=jpg');   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    background-color: #0000001f;
+    width: 800px;
+    margin: 160px auto;
+    border-radius: 15px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.player
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options
+{
+    display: flex;
+}
+
+.button
+{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-shadow: 2px 2px 6px 2px #a59797;
+    align-content: center;
+    text-align: center;
+}
+
+#previous
+{
+    background-image: url('https://cdn-icons-png.freepik.com/256/4197/4197741.png?uid=R175320053&ga=GA1.1.2005274387.1732197697&semt=ais_hybrid');
+}
+
+#play
+{
+    background-image: url('https://cdn-icons-png.freepik.com/256/10697/10697649.png?uid=R175320053&ga=GA1.1.2005274387.1732197697&semt=ais_hybrid');
+    rotate: 180deg;
+}
+
+#next
+{
+    background-image: url('https://cdn-icons-png.freepik.com/256/4197/4197741.png?uid=R175320053&ga=GA1.1.2005274387.1732197697&semt=ais_hybrid');
+    rotate: 180deg;
+}
+
+#loop
+{
+    background-image: url('https://cdn-icons-png.freepik.com/256/632/632934.png?uid=R175320053&ga=GA1.1.2005274387.1732197697&semt=ais_hybrid');
+}
+
+.button:hover
+{
+    cursor: pointer;
+    transition: width 0.2s ease;
+}
